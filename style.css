@@ -1,0 +1,57 @@
+body{
+    background: url("img.png");
+}
+table.ceny { 
+    margin: 10px 0; /* відступ зверху і знизу */
+    width: 100%; /* ширина таблиці */
+    margin-top: 30px;
+}
+/* параметри для ячейок заголовків */
+table.ceny th {
+    background: #f3f5f7; /* колір ячейки заголовку */
+    border-right: 1px solid #ECEDEE; /* рамка зправа від ячейки заголовка */
+    color: #FFFFFF; /* колір шрифта заголовка */
+    font-size: 15px; /* розмір шрифта заголовка */
+    padding: 25px; /* внутрішній відступ в заголовк */
+    text-align: center; 
+}
+/* параметри для всіх ячейок таблиці */
+table.ceny td {
+    border-bottom: 1px solid #ECEDEE; /* рамка знизу ячейки */
+    border-right: 1px solid #ECEDEE; /* рамка зправа ячейки */
+    font-size: 14px; /* размір шрифту */
+    padding: 4px; /* внутрішній відступ */
+    vertical-align: middle; /* горизонтальне вирівнювання */
+    
+}
+/*Параметри для ссилки (кнопка)*/
+a {
+    background-color: rgb(250, 27, 27); 
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    margin: 80%;
+    
+}
+a:visited {
+    color: #faf8fa; 
+   } 
+   a:hover {
+    color: #a39999; 
+    text-decoration: none; 
+   }
+   /* Параметри всьго вікна*/
+   #content{
+    border: 4px solid #418f8f; 
+    background: rgb(247, 245, 245);
+    height: 235px;
+    width: 600px; /* ширина таблицы */
+    margin:20px auto;
+    margin-top: 10%;
+   }
+/* Параметри заголовку*/
+   #greeting, #name, #message{
+       margin-top: 10px;
+       text-align: center;
+   }
+   
